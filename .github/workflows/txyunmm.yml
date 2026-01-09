@@ -1,9 +1,8 @@
 name: txyunmm
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
+    - cron: '40 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: txyunmm
         env:
-          kmkm8: ${{ secrets.kmkm8 }}
+          u159: ${{ secrets.u159 }}
         run: |
-          echo $kmkm8 | jq -r .lar26610 | /bin/bash
-          echo $moe55 | jq -r .kmrh4043 | /bin/bash
-          echo $qf5559 | jq -r .wq249 | /bin/bash
-          echo $zo2706 | jq -r .ckkc6 | /bin/bash
-          echo $mkdq9591 | jq -r .hdna78451 | /bin/bash
-          echo $z30392 | jq -r .b5 | /bin/bash
-          echo $ataeq9 | jq -r .szma8 | /bin/bash
-          echo $sbec762 | jq -r .jmli54 | /bin/bash
+          echo $u159 | jq -r .qrxsq12 | /bin/bash
+          echo $ewdr71092 | jq -r .j63 | /bin/bash
+          echo $fgtf12663 | jq -r .cyvmw1467 | /bin/bash
+          echo $vqoms6 | jq -r .zl08 | /bin/bash
+          echo $rdt799 | jq -r .aiye7 | /bin/bash
+          echo $mya0931 | jq -r .hwpl0 | /bin/bash
 
